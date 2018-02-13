@@ -18,8 +18,16 @@ var firstAndPike = {
     for(var i = 0; i < this.custEachHour.length; i++) {
       this.cookiePerHour.push(this.avgCookiesPerCust * this.custEachHour[i]);
     }
+  },
+  totalCookiesPerDay: 0,
+  calcTotalCookiePerDay: function() {
+    this.calcCookiePerHour();
+    for (var i = 0; i < this.cookiePerHour.length; i++) {
+      Number(this.totalCookiesPerDay += this.cookiePerHour[i]);//figure out how to round
+    }
   }
 };
 
 firstAndPike.calcCustEachHour();
 firstAndPike.calcCookiePerHour();
+firstAndPike.calcTotalCookiePerDay();
