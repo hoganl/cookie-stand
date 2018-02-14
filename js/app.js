@@ -75,11 +75,13 @@ Store.prototype.calcTotalCookiesPerDay = function() {
 Store.prototype.render = function() {
   var trEl = document.createElement('tr');
   var tdEl = document.createElement('td');
+  tdEl.className = 'salesCells';
   tdEl.textContent = this.storeName;
   trEl.appendChild(tdEl);
 
   for(var i = 0; i < hours.length; i++) {
     tdEl = document.createElement('td');
+    tdEl.className = 'salesCells';
     tdEl.textContent = this.cookiesPerHour[i];
     trEl.appendChild(tdEl);
   }
@@ -131,16 +133,19 @@ console.table(allStores);
 function makeHeaderRow() {
   var trEl = document.createElement('tr');
   var thEl = document.createElement('th');
+  thEl.className = 'salesHeadRow';
   thEl.textContent = 'Locations';
   trEl.appendChild(thEl);
 
   for (var i = 0; i < hours.length; i++) {
     thEl = document.createElement('th');
+    thEl.className = 'salesHeadRow';
     thEl.textContent = hours[i];
     trEl.appendChild(thEl);
   }
 
   thEl = document.createElement('th');
+  thEl.className = 'salesHeadRow';
   thEl.textContent = 'Location Totals';
   trEl.appendChild(thEl);
 
@@ -161,3 +166,4 @@ function makeStoreRows() {
 makeHeaderRow();
 makeStoreRows();
 // makeFooterRow();
+

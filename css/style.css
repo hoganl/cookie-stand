@@ -11,45 +11,53 @@
 
 #salesHeader {
     text-align: center;
-}
-
-#publicHeader {
-    text-align: center;
     color: salmon;
 }
 
-.total {
-    font-weight: bold;
-}
-
-table {
+#storeCookies {
     border: 10px solid black;
     margin: 100px 
 }
 
-td {
-	padding: 10px;
+.salesHeadRow {
+    background-color: salmon;
+    color: white;
+}
+
+.salesCells {
+    padding: 10px;
 	border-radius: 15px;
     border: 1px solid black;
     background: linear-gradient(to bottom, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.6) 100%);
     text-align: center;
 }
 
-th {
-	background-color: salmon;
-	color: white;
-}
-
-h1 {
-    color: salmon;
-}
-
 .totalsCell {
+    padding: 10px;
+	border-radius: 15px;
+    border: 1px solid black;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.6) 100%), salmon;
+    text-align: center;
     font-weight: bold;
-    background-color: salmon;
 }
 
 /* Index HTML */
 #indexBody {
     background-color: seashell;
+}
+
+#indexHeader {
+    text-align: center;
+    color: salmon;
+}
+
+#indexTable {
+    border: 2px solid black;
+    margin: 300px
+}
+
+#indexImg {
+    display: block;
+    margin: auto;
+    width: 500px
 }
