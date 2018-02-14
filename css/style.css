@@ -12,22 +12,23 @@
 #salesHeader {
     text-align: center;
     color: salmon;
+    font-size: 30px
 }
 
 #storeCookies {
-    border: 10px solid black;
+    border: 5px solid black;
     margin: 100px 
 }
 
 .salesHeadRow {
-    background-color: salmon;
+    padding: 10px;
+    background: salmon;
     color: white;
 }
 
 .salesCells {
     padding: 10px;
 	border-radius: 15px;
-    border: 1px solid black;
     background: linear-gradient(to bottom, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.6) 100%);
     text-align: center;
 }
@@ -35,7 +36,6 @@
 .totalsCell {
     padding: 10px;
 	border-radius: 15px;
-    border: 1px solid black;
     background: linear-gradient(to bottom, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.6) 100%), salmon;
     text-align: center;
     font-weight: bold;
@@ -61,3 +61,56 @@
     margin: auto;
     width: 500px
 }
+
+/* Form */
+input {
+    border: 3px solid salmon;
+    border-radius: 8px;
+    padding: 5px 5px 5px 5px;
+    margin: 15px;
+  }
+  
+  label {
+    color: black;
+  }
+  
+  fieldset {
+    max-width: 700px;
+    border: 7px solid black;
+    border-radius: 75px;
+    padding: 10px;
+    text-align: center;
+    margin: 50px
+  }
+  
+  legend {
+    background-color: salmon;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  button {
+    color: black;
+    text-shadow: 0px 1px 1px #ffffff;
+    border: 2px solid #b2b2b2;
+    background-color: black;
+    background: -webkit-gradient(linear, left top, left bottom, from(#F0E8C7), to(#9C9060));
+    background: -moz-linear-gradient(top, #F0E8C7, #9C9060);
+    background: -o-linear-gradient(top, #F0E8C7, #9C9060);
+    background: -ms-linear-gradient(top, #F0E8C7, #9C9060);
+  }
+  
+  button:hover {
+    color: black;
+    border: 2px solid #a4a4a4;
+    background-color: black;
+    background: -webkit-gradient(linear, left top, left bottom, from(#F0E8C7), to(salmon));
+    background: -moz-linear-gradient(top, #F0E8C7, salmon);
+    background: -o-linear-gradient(top, #F0E8C7, salmon);
+    background: -ms-linear-gradient(top, #F0E8C7, salmon);
+  }
