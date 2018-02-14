@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <title>Cookie Stand</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css" />
         <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
         <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet" />
     </head>
@@ -16,19 +17,19 @@
             <fieldset>
                 <legend>Add a new store to the table</legend>
 
-                <label for="">Location Name</label>
-                <input name="" type="" size="" />
+                <label for="location">Location Name</label>
+                <input name="location" type="text" size="15" />
 
-                <label for="">Minimum Customers Per Hour</label>
-                <input name="" type="" size="" />
+                <label for="minCust">Minimum Customers Per Hour</label>
+                <input name="minCust" type="text" size="3" />
 
-                <label for="">Maximum Customers Per Hour</label>
-                <input name="" type="" size="" />
+                <label for="maxCust">Maximum Customers Per Hour</label>
+                <input name="maxCust" type="text" size="3" />
 
-                <label for="">Average Cookies Per Customer</label>
-                <input name="" type="" size="" />
+                <label for="avgCookie">Average Cookies Per Customer</label>
+                <input name="avgCookie" type="text" size="4" />
 
-                <button>Click here to add/update store!</button>
+                <button type="submit">Click here to add/update store!</button>
 
             </fieldset>
         </form>
