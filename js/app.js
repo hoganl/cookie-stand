@@ -102,3 +102,27 @@ function makeStoreRows() {
 makeHeaderRow();
 makeStoreRows();
 
+//Form
+
+//Create global variables for DOM to access
+var entryForm = document.getElementById('entry');
+
+//Create event handler for sumbission of new entry
+function handleEntrySubmit(event) {
+  event.preventDefault();
+  if (!event.target.avgCookiePC.value || !event.target.maxCustPH.value || !event.target.minCustPH.value ||!event.target.where.value) {
+    return alert('Fields cannot be empty!');
+  }
+
+  var newStore = new Store(event.target.where.value, event.target.minCustPH.value, event.target.maxCustPH.value, event.target.avgCookiePC.value);
+
+  event.target.where.value = null;
+  event.target.minCustPH.value = null;
+  event.target.maxCustPH.value = null;
+  event.target.avgCookiePC.value = null;
+
+  newStore.render();
+}
+
+//Event listener for entry submission form
+entryForm.addEventListener('submit', handleEntrySubmit);
