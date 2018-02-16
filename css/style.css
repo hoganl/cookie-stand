@@ -41,6 +41,10 @@
     font-weight: bold;
 }
 
+footer {
+    margin: 20px;
+}
+
 /* Index HTML */
 #indexBody {
     background-color: seashell;
