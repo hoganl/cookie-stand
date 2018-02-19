@@ -45,67 +45,6 @@ footer {
     margin: 20px;
 }
 
-/* Index HTML */
-#indexBody {
-    background-color: seashell;
-}
-
-#indexHeader {
-    text-align: center;
-    color: salmon;
-}
-
-nav{
-    /* float:right;
-    position:static;
-    left:-50%;
-    text-align:left; */
-}
-
-nav ul{
-    list-style:none;
-    /* position:static; */
-    /* left:50%; */
-    /* margin: 0 auto; */
-}
-
-nav li{
-    /* float:left; */
-    /* position:static; */
-    /* margin: 0 auto; */
-    display: inline;
-}
-
-nav a{
-    text-decoration:none;
-    /* margin:10px; */
-    background:salmon;
-    /* float:left; */
-    border:2px outset black;
-    color:#fff;
-    /* padding:2px 10px; */
-    text-align:center;
-    white-space:nowrap;
-}
-
-#indexImg {
-    display: block;
-    margin: auto;
-    width: 500px
-}
-
-#indexTable {
-    border: 2px solid black;
-    margin: 0 auto;
-    padding: 10px;
-	border-radius: 10px;
-}
-
-td {
-    padding: 10px;
-	border-radius: 15px;
-}
-
 /* Form */
 input {
     border: 3px solid salmon;
