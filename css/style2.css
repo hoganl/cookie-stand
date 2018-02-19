@@ -1,0 +1,79 @@
+#indexBody {
+    background-color: seashell;
+}
+
+#indexHeader {
+    text-align: center;
+    color: salmon;
+}
+
+nav {
+    display: inline-block;
+    width: 100%;
+}
+
+#frosted1 {
+    float: left;
+    width: 20%;
+}
+
+#nav {
+    display: inline-block;
+    width: 650px;
+    height: 130px;
+}
+
+nav ul {
+    height: 130px;
+    margin-top: 60px;
+    margin-left: 150px;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav a {
+    text-decoration:none;
+    background:salmon;
+    border:2px outset black;
+    color:#fff;
+    text-align:center;
+    white-space:nowrap;
+    padding: 10px;
+}
+
+#frosted2 {
+    float: right;
+    width: 20%;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 50px;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#indexTable {
+    border: 2px solid black;
+    margin: 50px auto;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+    background-color: rgb(194, 184, 184);
+}
+
+td {
+    padding: 10px;
+	border-radius: 15px;
+}
+
+#salmonImg {
+    display: block;
+    margin: 0 auto;
+}

@@ -1,0 +1,99 @@
+#merchandiseBody {
+    background-color: seashell;
+}
+
+#merchandiseHeader {
+    text-align: center;
+    color: salmon;
+}
+
+nav {
+    display: inline-block;
+}
+
+nav ul {
+    margin-left: 250px;
+    margin-bottom: 100px;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 100px;
+}
+
+nav a {
+    text-decoration:none;
+    background:salmon;
+    border:2px outset black;
+    color:#fff;
+    text-align:center;
+    white-space:nowrap;
+    padding: 10px;
+}
+
+#familyImg {
+    display: block;
+    margin: 0 auto;
+}
+
+#merchandiseH2 {
+    text-align: center;
+}
+
+#shirtList {
+    display: inline-block;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#shirtImg {
+    float: left;
+}
+
+#shirtList p {
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+#potHolderList {
+    display: inline-block;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+#potHolderImg {
+    float: right;
+}
+
+#potHolderList p {
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    margin-right: 50px;
+}
+
+#cutterList {
+    display: inline-block;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#cutterImg {
+    float: left;
+}
+
+#cutterList p {
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 50px;
+}
+
+#chinookImg {
+    display: block;
+    margin: 0 auto;
+}
